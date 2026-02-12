@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Demo Script",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/demo_script.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/backend"
+    },
+    {
+      "name": "Python: FastAPI",
+      "type": "python",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "api.main:app",
+        "--reload",
+        "--port",
+        "8000"
+      ],
+      "cwd": "${workspaceFolder}/backend",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Pytest Current File",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": [
+        "${file}",
+        "-v"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/backend"
+    }
+  ]
+}
