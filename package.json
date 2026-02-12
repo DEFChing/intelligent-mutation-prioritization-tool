@@ -1,0 +1,29 @@
+{
+  "name": "impt-mutation-testing",
+  "version": "0.3.0",
+  "description": "Intelligent Mutation Prioritization Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "demo": "python demo_30_percent.py"
+  },
+  "keywords": [
+    "mutation-testing",
+    "software-testing",
+    "test-quality",
+    "pit",
+    "stryker"
+  ],
+  "authors": [
+    "Daniel Emile F. Ching",
+    "Jacy Ahrone N. Laurente",
+    "James Lawrence C. Vicente"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

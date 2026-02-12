@@ -294,7 +294,7 @@ def main():
     print("=" * 60)
 
     # Create test_data directory
-    output_dir = Path("test_data")
+    output_dir = Path("../test_data")
     output_dir.mkdir(exist_ok=True)
 
     # Generate mutants
